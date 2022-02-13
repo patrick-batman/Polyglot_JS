@@ -79,7 +79,7 @@ function revealPlayerPower(){
 // Write a function that shows the power level on the hacker card
 function revealHackerPower(){
   var hackerCard = document.querySelector(".hacker-card");
-  playerCard.classList.add("reveal-power");
+  hackerCard.classList.add("reveal-power");
 }
 // Write a function to compare the cards. Here is where all your skills would come in handy! 
 // P.S: We've added the 'disabled' attribute in the CSS file for the button and you should use it in case you want a certain element to just go away or 'vanish' at a certain  time. For eg: You'd definitely want the 'Next' button to go away after a player chooses a card right?
