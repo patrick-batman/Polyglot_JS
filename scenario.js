@@ -8,6 +8,25 @@
 
 var scenarios = [
   { // add the text you'd want should appear on the hacker's card
+    hackerCard :{
+      description : "I have sent you a mail saying you are the new prince of nigeria,send bank details for $100mil inheritance.",
+      power : 3,
+    },
+    playerCards : [{
+      description : "I prefer my lifestyle thanks!",
+      power : 4,
+    },
+    {
+       description : "I might just check the offer,I'm broke anyways.",
+       power : 2,
+    },
+    {
+      description : "Bow before the new prince of Nigeria!!",
+      power : 1,
+    }
+    ]
+  },
+    {
     hackerCard : {
       description : "I set up a fake Wi-Fi station to steal people’s email and track them online.",
       power : 4,
